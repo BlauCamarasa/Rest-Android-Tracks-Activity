@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fotofondo1">
+
+
+    <Button
+        android:id="@+id/listoftracks"
+        android:layout_width="243dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#070707"
+        android:text="Show list of tracks"
+        android:onClick="onClicklistoftracks"/>
+
+    <Button
+        android:id="@+id/addremovetrack"
+        android:layout_width="243dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#070707"
+        android:text="Add or remove a new track"
+        android:layout_below="@id/listoftracks"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickaddremovetrack"
+        />
+
+
+
+</RelativeLayout>
